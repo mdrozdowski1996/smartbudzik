@@ -1,0 +1,5 @@
+# Rozszerzona wizja
+
+### Kalendarz
+Aplikacja będzie importowała dane z kalendarza Google i wyświetlała ich kiedy użytkownik będzię ustawiać czas obudzenia. 
+To będzie główny widok aplikacji. Po otwórzeniu aplikacji na ekranie pojawia się widok podobny do tego, co jest w Google Calendar, na którym są wyświetlane wszystkie zaplanowane zdarzenia na następny dzień. Ten widok będzie miał kilka stron - każdy dzień ma swoją stronę. Strony można zmieniać przeciągając z jednej strony do drugiej. W prawym dolnym rogu będzie przycisk, nacisnięcię na który powoduje stworzenie nowego budzika. Czas budzika będzie ustawiony na tą godzinę, na którą użytkownik przeciągnie budzik. Jeśli użytkownik nie przeciągnął budzik a zostawił go na przycisku, to stworzenie budzika zostanie odwołane. Istnejące budziki są wyświetlane jak paski na planie dnia. Istniejące budziki też można przeciągać i usuwać, przeciągając z powrotem na przycisk. Jednorazowe nacisnięcie na pasek budzika powoduje otworzenie nowego widoka, w którym można w tradycyjny sposób zmienić ustawienia budzika: czas, dzwięk, głosność, powtórzenia. 
