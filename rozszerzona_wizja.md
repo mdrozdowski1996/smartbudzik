@@ -34,7 +34,8 @@ Dostępne ustawienia:
 4. Czas przed ustawionym czasem budzenia, kiedy pojawia się przypomnienie o rekomendacji pójścia spać (domyślnie 8 godzin)
 
 #### Widok konfiguracji zadań:
-TODO
+Widok konfiguracji zadań umożliwia wybór zadań, spośród których w trakcie alarmu będzie losowane zadanie. W podstawowym widoku konfiguracji wyświetlana będzie lista dostępnych zadań. Użytkownik będzie mógł zaznaczyć checkboxy przy dowolnej liczbie zadań. Przy każdym będzie znajdował się przycisk ustawień, który pozwala na konfigurację opcji specyficznych dla danego zadania. Po jego kliknięciu otwierać się będzie widok konfiguracji konkretnego zadania. Żeby zwiększyć prawdopodobieństwo rozbudzenia, możliwe będzie także ustawienie większej niż jeden liczby zadań, które trzeba będzie wykonać, żeby wyłączyć alarm.
+Jeśli do sprawdzenia zadania potrzebny jest czujnik, w który telefon nie jest wyposażony (na przykład akcelerometr lub GPS), to zadanie nie będzie dostępne do zaznaczenia. W takim wypadku będzie ono wyświetlane na szaro z informacją o brakujących wymaganiach.
 
 #### Zadania wyłączające alarm:
 Opisy zadań i konfiguracji:
@@ -44,6 +45,12 @@ Jak wskazuje nazwa, zadanie te polega na rozwiązaniu losowych (wygenerowanych) 
 
 2. Potrząsanie komórką.
 Te zadanie jest bardzo proste, bo polega na prostym potrząśnięciu komórką co najmniej określoną ilość razy, która pojawia się na ekranie głównym pod teskstem "Potrząśnij komórką", na dole będzie teks "razy". Ze względu na łatwość, co oznacza małą skuteczność obudzenia tego zadania, standardowo ono będzie dodatkowym zadaniem. W widoku konfiguracji zadań będzie dostępna możliwość konfiguracji zakresu, z którego w losowy sposób wybiera się liczba potrząśnięć. Widok konfiguracji będzie zawierał 2 pola: dla wpisania minimalnej i maksymalnej liczby potrząśnięć.
+
+3. Pytanie o litery alfabetu.
+Zadanie polega na kilkukrotnym pytaniu o pewną literę alfabetu. Konfiguracja zadania sprowadza się do podania liczby pytań oraz zaznaczenia języków, o których alfabety użytkownik chce być pytany. Pytania mogą być postaci "Podaj czwartą literę alfabetu angielskiego", "Podaj trzecią od końca literę alfabetu rosyjskiego" lub "Podaj piątą literę po 'ń' w alfabecie polskim". Każdorazowe błędne podanie litery będzie skutkowało zwiększeniem liczby pozostałych pytań o 2, więc zgadywanie nie będzie opłacalne.
+
+4. Przepisywanie tekstu.
+Celem zadania jest bezbłędne przepisanie wyświetlonego tekstu do pola tekstowego poniżej. Teksty do przepisania będą pochodziły z różnych dzieł literackich. Użytkownik będzie mógł skonfigurować język oraz długość tekstów oraz liczbę błędów, po przekroczeniu której nastąpi wygenerowanie nowego tekstu. Wprowadzany przez użytkownik tekst będzie na bieżąco monitorowany pod kątem błędów, a po każdym popełnionym błędzie nastąpi sygnał ostrzegawczy. Żeby uniemożliwić oszukiwanie, po wykryciu wklejenia lub użycia podpowiadania zostanie wygenerowany nowy tekst.
 
 
 #### Minimalna wersja
