@@ -6,13 +6,13 @@
 ##### Założenia programu
 Podstawowym założeniem naszej aplikacji ma być budzenie ludzi w odpowiednim czasie. Jest to problem znany i nie da się go całkowicie rozwiązać, jednak spróbujemy zastosować narzędzia, które w pewnym stopniu zmniejszą skalę tego problemu.
 Oczywiście na świecie istnieje wiele budzików, jednak gdy chcemy pokusic się o dodatkowe opcje, ta liczba gwałtownie maleje.
-Nasza aplikacja ma być intuicyjna w ustawianiu czasu budzenia, uczynimy to poprzez powiązanie z planem dnia danej osoby. Oczywiscie obsługa to nie wszystko, ważne by aplikacja skutecznie budziła, w tym celu aby stworzymy zadania, które trzeba rozwiązać by alarm się wyłączył.
+Nasza aplikacja ma być intuicyjna w ustawianiu czasu budzenia, uczynimy to poprzez powiązanie z planem dnia danej osoby. Oczywiscie obsługa to nie wszystko, ważne by aplikacja skutecznie budziła, w tym celu stworzymy zadania, które trzeba rozwiązać by alarm się wyłączył.
 
 ##### Grupa docelowa
 Możliwość korzystania z programu będzie dostępna dla każdego człowieka, jednak najbardziej priorytetową grupą docelową będą studenci. Jak powszechnie wiadomo mają oni skłonności do spóżniania się na zajęcia, poza tym potrafią biegle korzystać z urządzeń mobilnych, gdzie nasza aplikacja będzie dostępna.
 
 
-##### Widok kalendaraza
+##### Widok kalendarza
 Aplikacja będzie importowała dane z kalendarza Google i wyświetlała je, kiedy użytkownik będzie ustawiać czas obudzenia. 
 To będzie główny widok aplikacji. Po otworzeniu aplikacji na ekranie pojawia się widok podobny do tego, jaki jest w Google Calendar, na którym są wyświetlane wszystkie zaplanowane zdarzenia na następny dzień. Ten widok będzie miał kilka stron - każdy dzień ma swoją stronę. Strony można zmieniać przeciągając z jednej strony do drugiej. W prawym dolnym rogu będzie przycisk, nacisnięcie na który powoduje stworzenie nowego budzika. Czas budzika będzie ustawiony na tą godzinę, na którą użytkownik przeciągnie budzik. Jeśli użytkownik nie przeciągnął budzika, a zostawił go na przycisku, to stworzenie budzika zostanie odwołane. Istnejące budziki są wyświetlane jak paski na planie dnia. Istniejące budziki też można przeciągać i usuwać, przeciągając z powrotem na przycisk. 
 
