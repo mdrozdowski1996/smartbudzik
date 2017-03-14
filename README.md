@@ -2,10 +2,10 @@
 
 Podział zadań:
 
-Vlad: Kalendarz + drag & drop
+-Kuba: Wylistowanie możliwych use case'ów
 
--Alex: przypominanie o pójściu spać + rozwiązywanie wyrażeń + potrząsanie komórką
+-Alex: Use case 1
 
--Marek: grupa docelowa + założenia programu + kółko i krzyżyk
+-Marek: Use case 2
 
--Kuba: Pozostałe zadania + sposób konfiguracji zadań
+-Vlad: Obrazki do zadań
